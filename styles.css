@@ -1,0 +1,552 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-bottom: 90px;
+    background-color: black;
+}
+.inmain svg{
+    width: 170px;
+    fill: red;
+    background-color: rgba(0,0,0,0.1);
+}
+.main1{
+    background-image: url("nimg/bnet.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    border-bottom: 8px solid rgb(34,34,34);
+}
+.inmain{
+    background-color: rgba(0,0,0,0.1);
+    padding: 20px 80px;
+}
+.inmain .sel{
+    width: 110px;
+    height: 50px;
+    margin-left: 700px;
+    padding: 13px;
+    background-color: rgb(120,110,120);
+    color: white;
+    border-color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    background: none;
+    outline: none;
+    color: white;
+}
+.inmain .sel .opt{
+    color: rgb(120,110,120);
+}
+.inmain img{
+    width: 200px;
+    height: 90px;
+    background: none;
+}
+.inmain .btn{
+    width: 100px;
+    height: 48px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.inmain{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.inmain .btn:hover{
+    cursor: pointer;
+    background-color: palegreen;
+    color: red;
+    box-shadow: 0 4px 4px white;
+}
+.main1 .words h1{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+.main1 .words h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.forms{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    scroll-padding-bottom: 50px;
+}
+
+.forms a{
+    padding: 20px;
+    width: 200px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.forms .form1{
+    padding: 20px;
+    width: 480px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin-right: 2px;
+}
+.forms a:hover{
+    background-color: palegreen;
+    color: red;
+    box-shadow: 0 4px 4px white;    
+}
+::placeholder{
+    font-size: 20px;
+}
+#main2 h1{
+    color: white;
+    font-size: 45px;
+}
+#main2 img{
+    width: 400px;
+    height: 500px;
+    border: none;
+    outline: none;
+    background: none;
+}
+#main2{
+    display: flex;
+    margin-top: 0px;
+    padding: 100px 180px;
+    justify-content: space-between;
+    border-bottom: 8px solid rgb(34,34,34);
+}
+#main2 h3{
+    color: white;
+}
+.main3 h1{
+    color: white;
+    font-size: 45px;
+}
+#main2 #kgf{
+    position: relative;
+}
+#main2  h2{
+    color: blue;
+    position: absolute;
+    top: 10px; 
+    left: 140px;  
+}
+.main3 img{
+    width: 400px;
+    height: 300px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.main3{
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 8px solid rgb(34,34,34);
+}
+.main3 h3{
+    color: white;
+}
+.main4 h1{
+    color: white;
+    font-size: 45px;
+}
+.main4{
+    display: flex;
+    padding: 100px 180px;
+    justify-content: space-between;
+    border-bottom: 8px solid rgb(34,34,34);
+}
+.main4 img{
+    width: 575px;
+
+}
+.last h4{
+    color: rgb(120,110,120);
+}
+.last table td{
+    color: white;
+    padding: 20px;
+}
+.last a{
+    color: rgb(120,110,120);
+    text-decoration: none;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.last a:hover{
+    color: white;
+    text-decoration: underline;
+}
+p{
+    color: rgb(120,110,120);
+    margin-top: 10px;
+}
+#sel{
+    padding: 13px;
+    width: 110px;
+    border-radius: 3px;
+    font-size: 18px;
+    background: none;
+    outline: none;
+    color: white;
+}
+#sel #opt{
+    color: rgb(120,110,120);
+}
+#sel:hover{
+    border-color: white;
+}
+#kgf{
+    position: relative;
+}
+#kgf img{
+    position: relative;
+    width: 550px;
+    height: 430px;
+    z-index: 1;
+}
+#main2 #kgf #kgf1 #video1{
+    position: absolute;
+    top: 15.8%;
+    left: 13.2%;
+    width: 400px;
+    height: 270px;
+}
+.tan{
+    position: relative;
+}
+.tan img{
+    position: relative;
+    width: 550px;
+    height: 450px;
+    background: transparent;
+    z-index: 1;
+}
+.main3 .tan .tan1 .video2{
+    position: absolute;
+    top: -40px;
+    left: 18.5%;
+    width: 350px;
+    height: 380px;
+}
+.main3 .kgf{
+    position: relative;
+}
+.main3 .kgf2{
+    position: absolute;
+    top: 66%;
+    left: 76%;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+.main3 .kgf3{
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+}
+.second{
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+    background-color: red;
+    width: 80px;
+    border-radius: 5px;
+}
+.second:hover{
+    cursor: pointer;
+    color: white(236, 75, 0);
+}
+.first{
+    width: 260px;
+}
+.first:hover{
+    box-shadow: 0 5px 5px white;
+}
+
+
+.formcreate{
+    margin-left: 80px;
+    width: 30px;
+    padding: 10px;
+}
+.f1,.f2,.f3{
+    width: 220px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: -80px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.button{
+    padding: 8px;
+    width: 100px;
+    font-size: 15px;
+    margin-left: 0px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: palegreen;
+    color: red;
+    box-shadow: 0 3px 3px white;
+}
+.game1{
+    width: 450px;
+    height: 300px;
+    position: relative;
+}
+.game1 img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+}
+.game h1,h3{
+    color: white;
+}
+.game2 h6{
+    color: orange;
+    margin-top: 10px;
+    padding: 4px;
+    font-size: 25px;
+}
+.game p{
+    font-size: 18px;
+    padding: 4px;
+    color: palegreen;
+    margin-top: 0px;
+}
+.game2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px 0 0 10px;
+    transform: perspective(400px) rotateY(0deg);
+    transform-origin: left;
+    transition: all 0.7s;
+}
+.game{
+    padding: 150px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 8px solid rgb(34,34,34);
+}
+.game1:hover .game2{
+    transform: perspective(400px) rotateY(90deg);
+}
+.game1:hover{
+    box-shadow: 0 7px 7px white;
+    border-radius: 0 0 10px 10px;
+}
+.about h1{
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 8px solid rgb(34,34,34);
+}
+.aboutus{
+    margin-bottom: 40px;
+
+}
+.knowus{
+    background-color: rgb(48,48,48);
+    color: white;
+    padding: 25px;
+    font-size: 25px;
+    width: 800px;
+    margin: 10px;   
+}
+.knowus:hover{
+    cursor: pointer;
+}
+.knowus p{
+    color: white;
+    font-size: 20px;
+}
+.about .forms{
+    margin-bottom: 80px;
+}
+#main2 #kgf1 #video{
+    position: absolute;
+    top: 21%;
+    left: 13.2%;
+    width: 435px;
+    height: 270px;
+    z-index: 1;
+}
+@media(max-width:768px){
+    body{
+        margin: 0;
+        margin-bottom: 60PX;
+    }
+    .main1{
+        width: 100%;
+    }
+    .main1 .words h1{
+        font-size: 30px;
+    }
+    #main2 h1{
+        font-size: 30px;
+    }
+    .main3 h1{
+        font-size: 30px;
+    }
+    .inmain{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .inmain img{
+        margin-left: -60px;
+        width: 90px;
+        height: 70px;
+    }
+    .main1 .sel{
+        width: 90px;
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .first{
+        width: 50px;
+        margin-top: 20px;
+        margin-left: -55px;
+    }
+    .second{
+        width: 75px;
+    }
+    .first:hover{
+        box-shadow: none;
+    }
+    .f1,.f2,.f3{
+        width: 150px;
+        padding: 5px;
+    }
+    .button{
+        margin-left: -50px;
+        padding: 4px;
+    }
+    .forms .form1{
+        width: 210px;
+        padding: 6px;
+    }
+    .forms a{
+        width: 100px;
+        padding: 6px;
+        font-size: 15px;
+    }
+    #main2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -150px;
+        margin-top: 0px;
+    }
+    #main2 #kgf{
+        margin-left: 0px;
+    
+    }
+    #main2 #kgf img{
+        width: 480px;
+        margin-left: -40px;
+    }
+    #main2 #kgf1 #video1{
+        margin-left: -32px;
+        width: 200px;
+    }
+    #kgf1 h2{
+        font-size: 18px;
+        margin-left: -70px;
+    }
+    .main3 .tan img{
+        width: 540px;
+        margin-left: 0px;
+    }
+    .main3 .tan1 .tan2{
+        margin-left: 0px;
+        width: 150px;
+
+    }
+    .main3{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -150px;
+        margin-top: 40px;
+    }
+    .main3 h1{
+        font-size: 30px;
+    }
+    .main33{
+        width: 100%;
+    }
+    .main4{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -150px;
+        margin-top: 40px;
+    }
+    .main4 h1{
+        font-size: 30px;
+    }
+    .game{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-left: -150px;
+        margin-top: 40px;
+    }
+    .game h1{
+        font-size: 30px;
+    }
+    .aboutus .knowus{
+        width: 400px;
+        padding: 10px;
+        margin-left: 20px;
+    }
+    .about h1{
+        font-size: 30px;
+    }
+}
+
